@@ -37,10 +37,11 @@ struct DatasetsView: View {
                 } else if !datasetManager.availableKeys.isEmpty {
                     Section("Datasets.Available") {
                         ForEach(datasetManager.availableKeys.sorted { lhs, rhs in
-                            DatasetRow.displayName(for: lhs).localizedCompare(DatasetRow.displayName(for: rhs)) == .orderedAscending
+                            datasetManager.labelForKey(lhs).localizedCompare(datasetManager.labelForKey(rhs)) == .orderedAscending
                         }, id: \.self) { key in
                             DatasetRow(
                                 key: key,
+                                label: datasetManager.labelForKey(key),
                                 isLoaded: datasetManager.loadedKeys.contains(key),
                                 isDownloading: datasetManager.downloadingKeys.contains(key),
                                 onDownload: {
@@ -60,7 +61,7 @@ struct DatasetsView: View {
                     if !customKeys.isEmpty {
                         ForEach(customKeys, id: \.self) { key in
                             NavigationLink(destination: DatasetEditorView(datasetKey: key)) {
-                                Text(DatasetRow.displayName(for: key))
+                                Text(datasetManager.labelForKey(key))
                             }
                             .swipeActions(edge: .trailing, allowsFullSwipe: true) {
                                 Button(role: .destructive) {
@@ -130,7 +131,7 @@ struct DatasetsView: View {
                         newDatasetName = ""
                     }
                 }
-                Button("Shared.Cancel", role: .cancel) {
+                Button(role: .cancel) {
                     newDatasetName = ""
                 }
             }
@@ -140,33 +141,15 @@ struct DatasetsView: View {
 
 struct DatasetRow: View {
     let key: String
+    let label: String
     let isLoaded: Bool
     let isDownloading: Bool
     let onDownload: () -> Void
     let onDelete: () -> Void
 
-    static func displayName(for key: String) -> String {
-        switch key {
-        case "seveneleven": String(localized: "Datasets.Source.SevenEleven")
-        case "nosh": String(localized: "Datasets.Source.Nosh")
-        case "mcdonalds": String(localized: "Datasets.Source.McDonalds")
-        case "koubo": String(localized: "Datasets.Source.Koubo")
-        case "boss": String(localized: "Datasets.Source.Boss")
-        case "acure": String(localized: "Datasets.Source.Acure")
-        case "suntory": String(localized: "Datasets.Source.Suntory")
-        case "kirin": String(localized: "Datasets.Source.Kirin")
-        case "ucc": String(localized: "Datasets.Source.Ucc")
-        default: key
-        }
-    }
-
-    var displayName: String {
-        Self.displayName(for: key)
-    }
-
     var body: some View {
         HStack {
-            Text(displayName)
+            Text(label)
                 .font(.body)
             Spacer()
             if isDownloading {

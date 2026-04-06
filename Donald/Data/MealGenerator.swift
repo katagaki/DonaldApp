@@ -73,28 +73,23 @@ struct MealGenerator {
 
         // Calories
         let calDiff = after.cal - targets.cal
-        if calDiff > 0 { score += (calDiff / targets.cal) * 3 * overMul }
-        else { score += (abs(calDiff) / targets.cal) * 0.5 * underMul }
+        if calDiff > 0 { score += (calDiff / targets.cal) * 3 * overMul } else { score += (abs(calDiff) / targets.cal) * 0.5 * underMul }
 
         // Fat
         let fDiff = after.f - targets.f
-        if fDiff > 0 { score += (fDiff / targets.f) * 8 * overMul }
-        else { score += (abs(fDiff) / targets.f) * 0.3 * underMul }
+        if fDiff > 0 { score += (fDiff / targets.f) * 8 * overMul } else { score += (abs(fDiff) / targets.f) * 0.3 * underMul }
 
         // Protein
         let pDiff = after.p - targets.p
-        if pDiff > 0 { score += (pDiff / targets.p) * 1 * overMul }
-        else { score += (abs(pDiff) / targets.p) * 1.5 * underMul }
+        if pDiff > 0 { score += (pDiff / targets.p) * 1 * overMul } else { score += (abs(pDiff) / targets.p) * 1.5 * underMul }
 
         // Carbs
         let cDiff = after.c - targets.c
-        if cDiff > 0 { score += (cDiff / targets.c) * 2 * overMul }
-        else { score += (abs(cDiff) / targets.c) * 0.8 * underMul }
+        if cDiff > 0 { score += (cDiff / targets.c) * 2 * overMul } else { score += (abs(cDiff) / targets.c) * 0.8 * underMul }
 
         // Fiber
         let fiDiff = after.fi - targets.fi
-        if fiDiff > 0 { score += (fiDiff / targets.fi) * 0.3 * overMul }
-        else { score += (abs(fiDiff) / targets.fi) * 2 * underMul }
+        if fiDiff > 0 { score += (fiDiff / targets.fi) * 0.3 * overMul } else { score += (abs(fiDiff) / targets.fi) * 2 * underMul }
 
         return score
     }

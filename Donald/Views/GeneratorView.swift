@@ -62,7 +62,6 @@ struct GeneratorView: View {
                     }
                 }
             }
-            .orangeGradientBackground()
             .navigationTitle("Generator.Title")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
@@ -71,14 +70,14 @@ struct GeneratorView: View {
                         dismiss()
                     }
                 }
-                ToolbarItem(placement: .bottomBar) {
+                ToolbarItemGroup(placement: .bottomBar) {
                     Button("Generator.Clear", role: .destructive) {
                         planManager.clearAll()
                         dismiss()
                     }
                 }
                 ToolbarSpacer(.flexible, placement: .bottomBar)
-                ToolbarItem(placement: .bottomBar) {
+                ToolbarItemGroup(placement: .bottomBar) {
                     Button {
                         generate()
                     } label: {
@@ -89,6 +88,7 @@ struct GeneratorView: View {
                         }
                     }
                     .disabled(isGenerating || datasetManager.allItems.isEmpty)
+                    .buttonStyle(.borderedProminent)
                 }
             }
         }

@@ -63,7 +63,6 @@ struct ItemPickerView: View {
                 }
             }
             .listStyle(.plain)
-            .orangeGradientBackground()
             .navigationTitle("Picker.Title")
             .navigationBarTitleDisplayMode(.inline)
             .searchable(text: $searchText, placement: .navigationBarDrawer(displayMode: .always), prompt: "Data.Search.Prompt")
@@ -73,7 +72,9 @@ struct ItemPickerView: View {
                         dismiss()
                     }
                 }
-                ToolbarItem(placement: .topBarTrailing) {
+                DefaultToolbarItem(kind: .search, placement: .bottomBar)
+                ToolbarSpacer(.fixed, placement: .bottomBar)
+                ToolbarItemGroup(placement: .bottomBar) {
                     Menu {
                         Button {
                             selectedCategory = nil
@@ -96,7 +97,7 @@ struct ItemPickerView: View {
                             }
                         }
                     } label: {
-                        Label(filterLabel, systemImage: "line.3.horizontal.decrease.circle")
+                        Label(filterLabel, systemImage: "line.3.horizontal.decrease")
                     }
                 }
             }
@@ -120,11 +121,13 @@ struct PickerItemRow: View {
                     Text("Fi\(String(format: "%.1f", item.fi))g")
                 }
                 .font(.caption)
+                .monospacedDigit()
                 .foregroundStyle(.secondary)
             }
             Spacer(minLength: 0)
             Text(String(format: "%.1fg", item.f))
                 .font(.caption)
+                .monospacedDigit()
                 .fontWeight(.semibold)
                 .foregroundStyle(fatColor(item.f))
         }

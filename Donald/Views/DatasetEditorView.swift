@@ -36,6 +36,7 @@ struct DatasetEditorView: View {
                             Text("Fi\(String(format: "%.1f", item.fi))g")
                         }
                         .font(.caption)
+                        .monospacedDigit()
                         .foregroundStyle(.secondary)
                     }
                     .swipeActions(edge: .trailing, allowsFullSwipe: true) {
@@ -68,7 +69,7 @@ struct DatasetEditorView: View {
                         Label("DatasetEditor.Export", systemImage: "square.and.arrow.up")
                     }
                 } label: {
-                    Image(systemName: "ellipsis.circle")
+                    Image(systemName: "ellipsis")
                 }
             }
         }

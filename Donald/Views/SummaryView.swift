@@ -61,8 +61,10 @@ struct SummaryView: View {
                             VStack(alignment: .trailing, spacing: 0) {
                                 Text("\(Int(totals.cal))kcal")
                                     .font(.caption2)
-                                Text(String(format: "F%.1fg", totals.f))
+                                    .monospacedDigit()
+                                Text("F\(String(format: "%.1f", totals.f))g")
                                     .font(.caption2)
+                                    .monospacedDigit()
                                     .foregroundStyle(overFat ? .red : .secondary)
                             }
                             .frame(minWidth: 55, alignment: .trailing)
@@ -93,6 +95,7 @@ struct SummaryView: View {
                         Text(entry.label)
                         Spacer()
                         Text("\(entry.count)")
+                            .monospacedDigit()
                             .foregroundStyle(.secondary)
                     }
                 }

@@ -21,17 +21,15 @@ struct TargetRow: View {
                 value = max(0, value - step)
             } label: {
                 Image(systemName: "minus.circle.fill")
-                    .foregroundStyle(.secondary)
             }
             .buttonStyle(.plain)
             Text("\(Int(value))\(unit)")
                 .monospacedDigit()
-                .frame(minWidth: 70, alignment: .center)
+                .frame(minWidth: 80, alignment: .center)
             Button {
                 value += step
             } label: {
                 Image(systemName: "plus.circle.fill")
-                    .foregroundStyle(Color.accentColor)
             }
             .buttonStyle(.plain)
         }

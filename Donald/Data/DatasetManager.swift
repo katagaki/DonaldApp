@@ -15,6 +15,7 @@ final class DatasetManager {
     var loadedKeys: Set<String> = []
     var downloadingKeys: Set<String> = []
     var allItems: [FoodItem] = []
+    var sourceLabels: [String: String] = [:]
     var isLoadingKeys = false
     var error: String?
 
@@ -135,8 +136,17 @@ final class DatasetManager {
 
     // MARK: - Local State
 
+    func labelForKey(_ key: String) -> String {
+        sourceLabels[key] ?? key
+    }
+
     func refreshLoadedKeys() {
         loadedKeys = (try? DatabaseManager.shared.loadedSourceKeys()) ?? []
+        refreshSourceLabels()
+    }
+
+    private func refreshSourceLabels() {
+        sourceLabels = (try? DatabaseManager.shared.sourceLabels()) ?? [:]
     }
 
     func reloadItems() {

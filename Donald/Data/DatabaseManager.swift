@@ -103,6 +103,15 @@ final class DatabaseManager {
         return keys
     }
 
+    func sourceLabels() throws -> [String: String] {
+        guard let db else { return [:] }
+        var labels: [String: String] = [:]
+        for row in try db.prepare(sources.select(sourceKey, sourceLabel)) {
+            labels[row[sourceKey]] = row[sourceLabel]
+        }
+        return labels
+    }
+
     // MARK: - Item Operations
 
     func insertItems(_ foodItems: [FoodItem], forSourceKey key: String) throws {

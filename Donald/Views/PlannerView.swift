@@ -117,6 +117,7 @@ struct PlannerView: View {
                                 Text("C\(String(format: "%.1f", item.c))g")
                             }
                             .font(.caption)
+                            .monospacedDigit()
                             .foregroundStyle(.secondary)
                         }
                     }
@@ -163,13 +164,14 @@ struct MacroBar: View {
     }
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 4) {
+        VStack(alignment: .leading, spacing: 8) {
             HStack {
                 Text(label)
-                    .font(.caption)
+                    .font(.subheadline)
                 Spacer()
                 Text("\(Int(current))/\(Int(target))\(unit)")
-                    .font(.caption)
+                    .font(.subheadline)
+                    .monospacedDigit()
                     .foregroundStyle(isOver ? .red : .secondary)
             }
             GeometryReader { geometry in

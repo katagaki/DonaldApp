@@ -76,6 +76,7 @@ struct DataView: View {
                     Section {
                         ForEach(filteredItems) { item in
                             FoodItemRow(item: item)
+                                .listRowBackground(Color.clear)
                         }
                     } header: {
                         Text("Data.Count \(filteredItems.count)")
@@ -110,7 +111,7 @@ struct DataView: View {
                             }
                         }
                     } label: {
-                        Label("Data.Filter.All", systemImage: "line.3.horizontal.decrease.circle")
+                        Label(filterLabel, systemImage: "line.3.horizontal.decrease")
                     }
                 }
                 ToolbarItem(placement: .topBarTrailing) {
@@ -172,6 +173,7 @@ struct FoodItemRow: View {
                 NutrientLabel(label: "Fi", value: String(format: "%.1f", item.fi), unit: "g")
             }
             .font(.caption)
+            .monospacedDigit()
         }
         .padding(.vertical, 2)
     }
