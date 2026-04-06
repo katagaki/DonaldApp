@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct DonaldApp: App {
+
+    @State private var datasetManager = DatasetManager()
+    @State private var planManager = PlanManager()
+
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(datasetManager)
+                .environment(planManager)
         }
     }
 }

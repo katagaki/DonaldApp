@@ -1,0 +1,1072 @@
+{
+  "sourceLanguage" : "ja",
+  "strings" : {
+    "%@%@" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@%2$@"
+          }
+        }
+      }
+    },
+    "%lld" : {
+
+    },
+    "%lld/%lld%@" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld/%2$lld%3$@"
+          }
+        }
+      }
+    },
+    "%lld%@" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld%2$@"
+          }
+        }
+      }
+    },
+    "%lldkcal" : {
+
+    },
+    "0" : {
+
+    },
+    "C%@g" : {
+
+    },
+    "Category.Bread" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "パン"
+          }
+        }
+      }
+    },
+    "Category.Dessert" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "デザート"
+          }
+        }
+      }
+    },
+    "Category.Drink" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "飲み物"
+          }
+        }
+      }
+    },
+    "Category.Meal" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "弁当"
+          }
+        }
+      }
+    },
+    "Category.Protein" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タンパク質"
+          }
+        }
+      }
+    },
+    "Category.Side" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "サイド"
+          }
+        }
+      }
+    },
+    "Category.Soup" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "スープ"
+          }
+        }
+      }
+    },
+    "Category.Veggie" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "野菜"
+          }
+        }
+      }
+    },
+    "Data.Count %lld" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld件"
+          }
+        }
+      }
+    },
+    "Data.Empty.Description" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「データセット」タブからデータをダウンロードしてください。"
+          }
+        }
+      }
+    },
+    "Data.Empty.Title" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "データなし"
+          }
+        }
+      }
+    },
+    "Data.Filter.All" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "すべて"
+          }
+        }
+      }
+    },
+    "Data.Nutrient.Calories" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カロリー"
+          }
+        }
+      }
+    },
+    "Data.Search.Prompt" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "検索"
+          }
+        }
+      }
+    },
+    "Data.Sort.CaloriesAsc" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カロリー↑"
+          }
+        }
+      }
+    },
+    "Data.Sort.CaloriesDesc" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カロリー↓"
+          }
+        }
+      }
+    },
+    "Data.Sort.FatAsc" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "脂質↑"
+          }
+        }
+      }
+    },
+    "Data.Sort.FatDesc" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "脂質↓"
+          }
+        }
+      }
+    },
+    "Data.Sort.Label" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "並び替え"
+          }
+        }
+      }
+    },
+    "Data.Sort.Name" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "名前"
+          }
+        }
+      }
+    },
+    "Data.Title" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "データ"
+          }
+        }
+      }
+    },
+    "DatasetEditor.AddItem" : {
+
+    },
+    "DatasetEditor.Export" : {
+
+    },
+    "Datasets.Available" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "利用可能なデータセット"
+          }
+        }
+      }
+    },
+    "Datasets.Create" : {
+
+    },
+    "Datasets.Create.Placeholder" : {
+
+    },
+    "Datasets.Custom" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カスタムデータ"
+          }
+        }
+      }
+    },
+    "Datasets.Import" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "JSONファイルを読み込む"
+          }
+        }
+      }
+    },
+    "Datasets.Import.Footer" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "DonaldWebと同じフォーマットのJSONファイルを読み込めます。"
+          }
+        }
+      }
+    },
+    "Datasets.Loading" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "データセットを読み込み中…"
+          }
+        }
+      }
+    },
+    "Datasets.Source.Acure" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "acure"
+          }
+        }
+      }
+    },
+    "Datasets.Source.Boss" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BOSS"
+          }
+        }
+      }
+    },
+    "Datasets.Source.Kirin" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kirin"
+          }
+        }
+      }
+    },
+    "Datasets.Source.Koubo" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "KOUBO"
+          }
+        }
+      }
+    },
+    "Datasets.Source.McDonalds" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "マクドナルド"
+          }
+        }
+      }
+    },
+    "Datasets.Source.Nosh" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "nosh"
+          }
+        }
+      }
+    },
+    "Datasets.Source.SevenEleven" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "セブン-イレブン"
+          }
+        }
+      }
+    },
+    "Datasets.Source.Suntory" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suntory"
+          }
+        }
+      }
+    },
+    "Datasets.Source.Ucc" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "UCC"
+          }
+        }
+      }
+    },
+    "Datasets.Title" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "データセット"
+          }
+        }
+      }
+    },
+    "Day.Friday" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "金"
+          }
+        }
+      }
+    },
+    "Day.Monday" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "月"
+          }
+        }
+      }
+    },
+    "Day.Saturday" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "土"
+          }
+        }
+      }
+    },
+    "Day.Sunday" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "日"
+          }
+        }
+      }
+    },
+    "Day.Thursday" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "木"
+          }
+        }
+      }
+    },
+    "Day.Tuesday" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "火"
+          }
+        }
+      }
+    },
+    "Day.Wednesday" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "水"
+          }
+        }
+      }
+    },
+    "F%@g" : {
+
+    },
+    "Fi%@g" : {
+
+    },
+    "FoodItemEditor.Calories" : {
+
+    },
+    "FoodItemEditor.Carbs" : {
+
+    },
+    "FoodItemEditor.Category" : {
+
+    },
+    "FoodItemEditor.Fat" : {
+
+    },
+    "FoodItemEditor.Fiber" : {
+
+    },
+    "FoodItemEditor.MealType" : {
+
+    },
+    "FoodItemEditor.MealType.Any" : {
+
+    },
+    "FoodItemEditor.Name" : {
+
+    },
+    "FoodItemEditor.Name.Placeholder" : {
+
+    },
+    "FoodItemEditor.Nutrition" : {
+
+    },
+    "FoodItemEditor.Protein" : {
+
+    },
+    "FoodItemEditor.Title" : {
+
+    },
+    "g" : {
+
+    },
+    "Generator.Clear" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "クリア"
+          }
+        }
+      }
+    },
+    "Generator.Generate" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "生成"
+          }
+        }
+      }
+    },
+    "Generator.LimitMode" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "目標との関係"
+          }
+        }
+      }
+    },
+    "Generator.LimitMode.Close" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ぴったり"
+          }
+        }
+      }
+    },
+    "Generator.LimitMode.Over" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "超えてOK"
+          }
+        }
+      }
+    },
+    "Generator.LimitMode.Under" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "控えめ"
+          }
+        }
+      }
+    },
+    "Generator.MacFrequency" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "マクドナルド頻度"
+          }
+        }
+      }
+    },
+    "Generator.MacFrequency.Days %lld" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "週%lld回"
+          }
+        }
+      }
+    },
+    "Generator.MacFrequency.Header" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "マクドナルド"
+          }
+        }
+      }
+    },
+    "Generator.MacFrequency.None" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "なし"
+          }
+        }
+      }
+    },
+    "Generator.MealSize.Large" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "多め"
+          }
+        }
+      }
+    },
+    "Generator.MealSize.None" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "なし"
+          }
+        }
+      }
+    },
+    "Generator.MealSize.Normal" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "普通"
+          }
+        }
+      }
+    },
+    "Generator.MealSize.Small" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "控えめ"
+          }
+        }
+      }
+    },
+    "Generator.MealSizes" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "食事量"
+          }
+        }
+      }
+    },
+    "Generator.Title" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自動生成"
+          }
+        }
+      }
+    },
+    "katagaki/DonaldApp" : {
+
+    },
+    "kcal" : {
+
+    },
+    "Meal.Breakfast" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "朝食"
+          }
+        }
+      }
+    },
+    "Meal.Dinner" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "夕食"
+          }
+        }
+      }
+    },
+    "Meal.Lunch" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "昼食"
+          }
+        }
+      }
+    },
+    "More.Attribution" : {
+
+    },
+    "More.Attributions" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Attributions"
+          }
+        }
+      }
+    },
+    "More.Attributions.Dependencies" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dependencies"
+          }
+        }
+      }
+    },
+    "More.GitHub" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Source Code"
+          }
+        }
+      }
+    },
+    "More.Title" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "その他"
+          }
+        }
+      }
+    },
+    "P%@g" : {
+
+    },
+    "Picker.Count %lld" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld件"
+          }
+        }
+      }
+    },
+    "Picker.Title" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "メニュー選択"
+          }
+        }
+      }
+    },
+    "Planner.AddItem" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "追加"
+          }
+        }
+      }
+    },
+    "Planner.Day" : {
+
+    },
+    "Planner.EmptySlot" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タップして追加"
+          }
+        }
+      }
+    },
+    "Planner.Generate" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "生成"
+          }
+        }
+      }
+    },
+    "Planner.Nutrition.Calories" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カロリー"
+          }
+        }
+      }
+    },
+    "Planner.Nutrition.Carbs" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "炭水化物"
+          }
+        }
+      }
+    },
+    "Planner.Nutrition.Fat" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "脂質"
+          }
+        }
+      }
+    },
+    "Planner.Nutrition.Fiber" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "食物繊維"
+          }
+        }
+      }
+    },
+    "Planner.Nutrition.Protein" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タンパク質"
+          }
+        }
+      }
+    },
+    "Planner.Nutrition.Title" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "栄養バランス"
+          }
+        }
+      }
+    },
+    "Planner.Title" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "プラン"
+          }
+        }
+      }
+    },
+    "Settings.ResetDefaults" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "デフォルトに戻す"
+          }
+        }
+      }
+    },
+    "Settings.Targets" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "栄養目標"
+          }
+        }
+      }
+    },
+    "Settings.Title" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "目標値"
+          }
+        }
+      }
+    },
+    "Shared.Cancel" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "キャンセル"
+          }
+        }
+      }
+    },
+    "Shared.Delete" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "削除"
+          }
+        }
+      }
+    },
+    "Shared.Done" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "完了"
+          }
+        }
+      }
+    },
+    "Shared.Save" : {
+
+    },
+    "Summary.DailyBreakdown" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "日別内訳"
+          }
+        }
+      }
+    },
+    "Summary.NoData" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "プランにデータがありません。"
+          }
+        }
+      }
+    },
+    "Summary.SourceBreakdown" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ソース別"
+          }
+        }
+      }
+    },
+    "Summary.Title" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "サマリー"
+          }
+        }
+      }
+    },
+    "Summary.WeeklyAverage" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "週間平均"
+          }
+        }
+      }
+    },
+    "Tab.Data" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "データ"
+          }
+        }
+      }
+    },
+    "Tab.Datasets" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "データセット"
+          }
+        }
+      }
+    },
+    "Tab.More" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "その他"
+          }
+        }
+      }
+    },
+    "Tab.Planner" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "プラン"
+          }
+        }
+      }
+    },
+    "Tab.Summary" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "サマリー"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
